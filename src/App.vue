@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    
+    <Autocomplete />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Autocomplete from './components/Autocomplete.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Autocomplete
   }
 }
 </script>
